@@ -439,9 +439,15 @@ main .recent-projects a {
 
 .info p{
     color: #625691;
+    font-size: 1.7rem;
+}
+.info p b{
+    color: #9687d2;
+    font-size: 1.5rem;
 }
 .info small{
-    color: #625691;
+    color: #5dac58;
+    font-size: 1rem;
 }
 .right .recent-updates{ 
 margin-top: 1rem; 
@@ -453,6 +459,10 @@ margin-top: 1rem;
 margin-bottom: 0.8rem; 
 }
 
+main .recent-projects a{
+    color: #9484d3 ;
+
+}
 
 .right .recent-updates .update {
 background: rgb(139, 108, 149);
