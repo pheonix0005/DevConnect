@@ -12,6 +12,10 @@
             margin: 0;
             box-sizing: border-box;
         }
+
+        body{
+            overflow-x: hidden;
+        }
         header {
             width: 100%;
             height: 100vh;
@@ -143,7 +147,7 @@
     <div style="background-color: rgb(184, 136, 230); height: 650px; width: 100%;">
         <div class="container" style="display: flex; justify-content: space-evenly;">
             <div class="text ">
-                <button style="font-size: 30px; color: rgb(137, 50, 219);" >Podcast</button>
+                <button onclick="navigate('Podcasts')" font-size: 30px; color: rgb(137, 50, 219);" >Podcast</button>
                 <p style="font-size: 30px;">“We used to spend days collecting the data we can now get in an hour with Lyssna. We're able to get a sneak preview of our campaigns' performance before they even go live.”</p>
                 <h5 style="font-size: 20px;">Team DevConnect</h5>
 
@@ -169,7 +173,7 @@
         <div class="img"><img src="Raj/filters_quality(100) 3.jpg" alt=""></div>
         <div class="cont"><h1>Try it for free today</h1>
             <p>Join over 320,000+ marketers, designers, researchers, and product leaders who use Lyssna to make data-driven decisions.</p>
-            <button>Sign up for free</button>
+            <button onclick="navigate('Signup')">Sign up for free</button>
             <a href="">No credit card required</a>
         </div>
         <div class="img"><img src="Raj/filters_quality(100) (2).jpg" alt=""></div>
