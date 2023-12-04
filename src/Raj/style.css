@@ -1,0 +1,348 @@
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #7c6790;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: rgb(255, 0, 149);
+    background-image:  url(thalia-tran-d1Wj9qU5C-o-unsplash.jpg);
+    background-size: cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#part3{
+    height: 100%;
+    width: 6%;
+}
+.text-div{
+    height: 300px;
+    
+    width: 500px;
+    
+    
+    
+    position: absolute;
+    top: 950px;
+    left: 320px;
+    animation: fadeIn 4s ease-in-out forwards;
+    opacity: 1;
+    
+    
+}
+.text-div>h1{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 72px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: beige;
+    
+
+
+}
+
+#small-img-div{
+    height: 400px;
+    width: 350px;
+    /* background-color: red; */
+    
+    background-image: url(ben-kolde-bs2Ba7t69mM-unsplash.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 1050px;
+    left: 1100px;
+}
+#vertical-text{
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: red; */
+    -webkit-text-stroke-width:3px ;
+    -webkit-text-stroke-color: #ffffff;
+    right: -300px;
+    top: 1030px;
+
+}
+#vertical-text {
+    letter-spacing: 6px;
+    transform: rotate(-90deg);
+    color: transparent;
+    font-size: 50px;
+
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#vertical-text h1{
+    display: inline-block;
+
+}
+.nav2{
+    position: absolute;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+@keyframes fadeIn {
+    from {
+       opacity: 0;
+    }
+   
+    to {
+       opacity: 1;
+    }
+   }
+   @keyframes slideIn {
+    from {
+       transform: translateX(-100%);
+    }
+   
+    to {
+       transform: translateX(0%);
+    }
+   }
+.text{
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    gap: 25px;
+    
+}
+.text button{
+    height: 40px;
+    width: 150px;
+    border-radius: 12px;
+    border: none;
+    padding: 2px;
+}
+.image{
+    padding: 100px;
+    margin-right: 50px;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+   }
+    40% {
+      transform: translateY(-30px);
+   }
+    60% {
+      transform: translateY(-15px);
+   }
+  }
+  
+  .text button {
+   position: relative;
+   /* padding: 15px 25px; */
+   font-size: 24px;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+   color: rgb(83, 21, 21);
+   background-color: rgb(111, 8, 202);
+   border: none;
+   border-radius: 50px;
+   box-shadow: 0 9px #55205c;
+   animation: bounce 1s infinite;
+  }
+  
+  .text button:active {
+   box-shadow: 0 5px #040041;
+   transform: translateY(4px);
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+   }
+    40% {
+      transform: translateY(-30px);
+   }
+    60% {
+      transform: translateY(-15px);
+   }
+  }
+  .sub-footer{
+    display: flex;
+    justify-content: space-between
+    
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+  }
+
+  .sub-footer button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(73, 0, 128);
+    color: white;
+  }
+  .sub-footer h1{
+
+    font-size: 60px;
+  }
+  .sub-footer p{
+    font-size: 25px;
+    padding: 0px px;
+    
+    text-align: center;
+
+  }
+  .sub-footer a{
+    text-decoration: none;
+    color: #55205c;
+  }
+  .img img{
+    height: 400px;
+    width: 500px;
+
+  }
+  .show{
+    /* background-color: red; */
+    padding: 50px 300px;
+    margin: 75px 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-evenly;
+  }
+  .heading{
+    font-size: 60px;border: 1px solid purple;
+    padding: 10px;
+    border-radius: 20px;
+
+  }
+  .head2{
+    font-size: 30px;
+  }
+  .head3{
+    font-size: 20px;
+  }
+  #page6{
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    height: 450px;
+    width: 100vw;
+    background-color: rgb(24, 9, 63)
+}
+.left-page6{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    width: 50%;
+    padding-left: 20vw;
+}
+.left-page6>h1{
+    font-size: 2.8vw;
+    font-weight: 600;
+    color: aliceblue;
+}
+.left-page6>h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    color: aliceblue;
+}
+.right-page6{
+    position: relative;
+    height: 50%;
+    width: 70%;
+}
+.right-page6>video{
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+}
+.show{
+    border: 0.5px solid white;
+}
+ul{
+  list-style: none;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5vw;
+  padding-bottom: 8vw;
+  background-color: rgb(69, 17, 120);
+}
+
+#country{
+  background: none;
+  border: none;
+  color: white;
+  
+}
+
+.sns i{
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 1em;
+  margin-top: 2em;
+}
+
+.list-head{
+  color: rgb(0, 0, 3);
+  font-size: 20px;
+  font-weight: 50;
+  padding-left: 1.3em;
+  font-weight: 900;
+}
+
+.footer-list{
+  padding-top: 1.5em;
+}
+.footer-list li a{
+  color: rgba(255, 255, 255, 0.61);
+  padding-top: 1em;
+  font-size: 16px;
+  font-weight: lighter;
+  text-decoration: none;
+  font-weight: 700;
+
+}
+
+.footer-list li a:hover{
+  margin-top: 1em;
+  text-decoration: underline;
+}
+.marq{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+
