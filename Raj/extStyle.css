@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(8201-0825-0921.jpg);
+    background-size: cover;
+}
+.nav1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(71, 26, 142);
+    opacity: 50%;
+    
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(6, 0, 11);
+    transition: 0.2s linear;
+}
+.menu a:hover::before{
+    width: 95%;
+
+}
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background: rgb(45, 3, 65);
+    border-radius: 18px;
+    
+
+}
+.register a:hover{
+    background: transparent;
+    border: 1px solid whitesmoke;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+ .glass-morphic {  background: rgba(255, 255, 255, 0.1); border-radius: 10px; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); display: flex; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box; } 

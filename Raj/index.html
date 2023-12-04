@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(8201-0825-0921.jpg);
+            background-size: cover;
+        }
+        .nav1{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(71, 26, 142);
+            opacity: 50%;
+            
+            color: whitesmoke;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .menu a{
+            text-decoration: none;
+            color: whitesmoke;
+            padding: 10px 20px;
+            font-size: 20px;
+            position: relative;
+        }
+        .menu a:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            border-bottom: 2px solid rgb(6, 0, 11);
+            transition: 0.2s linear;
+        }
+        .menu a:hover::before{
+            width: 95%;
+
+        }
+        .register a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            background: rgb(45, 3, 65);
+            border-radius: 18px;
+            
+
+        }
+        .register a:hover{
+            background: transparent;
+            border: 1px solid whitesmoke;
+
+        }
+        html, body{
+            height: 100%;
+            width: 100%;
+        }
+         .glass-morphic {  background: rgba(255, 255, 255, 0.1); border-radius: 10px; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); display: flex; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box; } 
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <div class="logo">
+                Dev-Connect
+            </div>
+            <div class="menu">
+                <a href="">Home</a>
+                <a href="">Developers</a>
+                <a href="">Podcasts</a>
+                <a href="">Contact</a>
+                <a href="">About</a>
+            </div>
+            <div class="register">
+                <a href="">Sign Up</a>
+                <a href="">Log In</a>
+
+            </div>
+        </nav>
+        <div class="show glass-morphic">
+            <div class="heading ">Dev Connect</div>
+            <div class="head2">Connect with us</div>
+            <div class="head3">Connect with the world</div>
+        </div>
+    </header>
+    
+    <div class="main">
+        <nav class="nav2">
+            <img src="download__1_-removebg-preview.png" alt="">
+            <h2 style="font-size: 50px;"><span style="color: white;">conn</span>ecting</h2>
+        </nav>
+        <div id="part1"></div>
+        <div id="part2">
+            
+            <div id="overlay"></div>
+            
+        </div>
+        <div id="part3"></div>
+        
+    </div>
+    <div class="text-div">
+        <h1>WHERE</h1>
+        <h1>DEVELOPERS</h1>
+        <h1>CONNECT &</h1>
+        <h1>COLLABORATE</h1>
+    </div>
+    <div id="small-img-div">
+        
+    </div>
+    <div id="vertical-text">
+        <h1 style="color: black;">INTERNET</h1><h1>.COM</h1>
+    </div>
+    <div style="background-color: rgb(184, 136, 230); height: 650px; width: 100%;">
+        <div class="container" style="display: flex; justify-content: space-evenly;">
+            <div class="text ">
+                <button style="font-size: 30px; color: rgb(137, 50, 219);" >Podcast</button>
+                <p style="font-size: 30px;">“We used to spend days collecting the data we can now get in an hour with Lyssna. We're able to get a sneak preview of our campaigns' performance before they even go live.”</p>
+                <h5 style="font-size: 20px;">Team DevConnect</h5>
+
+            </div>
+            <div class="image">
+                <img src="filters_quality(100) (1).jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <marquee behavior="scroll" direction="left">
+        <div class="marq">
+            <img src="mongodb_thumbnail (1).jpg"  style="height: 200px; width: 250px;" alt="">
+            <img src="1200px-Python.svg.png"  style="height: 170px; width: 250px;" alt="">
+            <img src="istockphoto-1270732623-612x612.jpg"  style="height: 170px; width: 250px;" alt="">
+            <img src="download (7).png"  style="height: 170px; width: 250px;"alt="">
+            <img src="download (8).png"  style="height: 170px; width: 250px;" alt="">
+            <img src="download__3_-removebg-preview (1).png" style="height: 170px; width: 250px;" alt="">
+            <img src="download__4_-removebg-preview.png" style="height: 170px; width: 170px;" alt="">
+            <img src="download__5_-removebg-preview.png" style="height: 170px; width: 170px;" alt="">
+        </div>
+      </marquee>
+    <div class="sub-footer" >
+        <div class="img"><img src="filters_quality(100) 3.jpg" alt=""></div>
+        <div class="cont"><h1>Try it for free today</h1>
+            <p>Join over 320,000+ marketers, designers, researchers, and product leaders who use Lyssna to make data-driven decisions.</p>
+            <button>Sign up for free</button>
+            <a href="">No credit card required</a>
+        </div>
+        <div class="img"><img src="filters_quality(100) (2).jpg" alt=""></div>
+    </div>
+    <div id="page6">
+        <div class="left-page6">
+            <h1>People-centric</h1>
+            <h4>Create a better employee experience by building your people operations systems and processes around your people. With self-service and seamless approvals, your team does not have to jump through hoops to get the resources they need.</h4>
+        </div>
+        <div class="right-page6">
+            <video src="./first video.mp4" autoplay loop muted ></video>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="connection">
+            <select name="country" id="country">
+                <option value="usa">English, USA</option>
+                <option value="india">Hindi, INDIA</option>
+                <option value="france">French, FRANCE</option>
+            </select>
+
+            <div class="sns">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+        </div>
+
+        <div class="product">
+            <p class="list-head">Product</p>
+            <ul class="footer-list">
+                <li><a href="">Download</a></li>
+                <li><a href="">Nitro</a></li>
+                <li><a href="">Status</a></li>
+                <li><a href="">App Directory</a></li>
+            </ul>
+        </div>
+
+        <div class="company">
+            <p class="list-head">Company</p>
+            <ul class="footer-list">
+                <li><a href="">About</a></li>
+                <li><a href="">Jobs</a></li>
+                <li><a href="">Brand</a></li>
+                <li><a href="">Newsroom</a></li>
+            </ul>
+        </div>
+
+        <div class="resources">
+            <p class="list-head">Resources</p>
+            <ul class="footer-list">
+                <li><a href="">Support</a></li>
+                <li><a href="">College</a></li>
+                <li><a href="">Safety</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Feedback</a></li>
+                <li><a href="">Developers</a></li>
+                <li><a href="">StreamKit</a></li>
+                <li><a href="">Creators</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">Official 3rd Party Merch</a></li>
+            </ul>
+        </div>
+
+        <div class="policies">
+            <p class="list-head">Policies</p>
+            <ul class="footer-list">
+                <li><a href="">Terms</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Cookie Settings</a></li>
+                <li><a href="">Guidelines</a></li>
+                <li><a href="">Acknowledgements</a></li>
+                <li><a href="">Licenses</a></li>
+                <li><a href="">Company Information</a></li>
+        </div>
+    </div>
+    
+</body>
+</html>
