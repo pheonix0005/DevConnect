@@ -107,7 +107,9 @@ profile-photo {
 }
 
 .text-muted{
-    color: var(--color-info-light);
+    color: rgb(20, 20, 20);
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
 .primary {
@@ -163,6 +165,7 @@ aside .sidebar{
 
 aside h3{
     font-weight: 500;
+    font-size: 14px;
 }
 
 aside .sidebar a{
@@ -173,6 +176,7 @@ aside .sidebar a{
     align-items: center;
     height: 3.7rem;
     transition: all 300ms ease;
+    font-size: 20px;
 }
 
 
@@ -315,14 +319,17 @@ main .insights svg circle{
 main .insights .completed svg circle {
     stroke-dashoffset: -30;
     stroke-dasharray: 200;
+    stroke: rgb(119, 228, 159);
     }
     main .insights .impression svg circle {
     stroke-dashoffset: 20;
     stroke-dasharray: 80;
+    stroke: #5d69c4;
     }
     main .insights .feedback svg circle {
-    stroke-dashoffset: 35;
-    stroke-dasharray: 110;
+        stroke-dashoffset: 20;
+        stroke-dasharray: 80;
+        stroke: #49927a;
     } 
 
     main .insights .progress .number {
@@ -338,6 +345,12 @@ main .insights .completed svg circle {
 }
 .recent-projects h2{
     color: #7a709f;
+}
+
+.number p{
+    color: #c7baf0;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 main .recent-projects{
@@ -364,6 +377,11 @@ main recent-projects table:hover {
 .recent-projects a{
     font-size: 15px;
     color: #625691;
+}
+main table th{
+    color: #D4ADFC;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 main table tbody td {
