@@ -268,18 +268,18 @@ main .insights > div {
 .left h1{
     color: #190b0e;
 }
- main .insights > div.completed span { 
+ main .insights > div.completed .material-symbols-sharp { 
 color: rgb(174, 147, 149)
 ; 
 background: rgb(71, 31, 83);
 }
 
-main .insights > div.impression span {
+main .insights > div.impression  .material-symbols-sharp{
     color: rgb(111, 107, 158);
     background: rgb(71, 31, 83);
 }
 
-main .insights > div.feedback span {
+main .insights > div.feedback .material-symbols-sharp {
     color: rgb(149, 196, 140);
     background: rgb(71, 31, 83); }
 
@@ -316,8 +316,22 @@ main .insights svg circle{
     transform: translate(5px, 5px);
 }
 
+/* .left  span{
+    font-size: 10px;
+} */
+main .insights .left h1 span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+main .insights .left h1 {
+    font-size: 2.2rem;
+    color: #ded3ff;
+    font-weight: 600;
+}
+
 main .insights .completed svg circle {
-    stroke-dashoffset: -30;
+    stroke-dashoffset: -100;
     stroke-dasharray: 200;
     stroke: rgb(119, 228, 159);
     }
